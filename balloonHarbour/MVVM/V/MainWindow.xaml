@@ -6,33 +6,67 @@
         xmlns:local="clr-namespace:balloonHarbour" xmlns:vm="clr-namespace:balloonHarbour.MVVM.VM"
         mc:Ignorable="d"
         Height="650" Width="1200"
+        MinHeight="400" MinWidth="650"
         Background="#36393F"
         WindowStyle="None"
-        AllowsTransparency="True">
- 
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="25"/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="200"/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        
-        <Border Grid.ColumnSpan="2"
+        AllowsTransparency="True"
+        ResizeMode="CanResizeWithGrip">
+    <DockPanel LastChildFill="True">
+        <Rectangle
+            DockPanel.Dock="Top"
+            Stroke="{x:Null}"
+            Fill="Transparent"
+            VerticalAlignment="Top"
+            Height="5"
+            x:Name="top"
+            Margin="5,0,5,0" />
+        <Rectangle
+            DockPanel.Dock="Bottom"
+            Stroke="{x:Null}"
+            Fill="Transparent"
+            x:Name="bottom"
+            Height="5"
+            VerticalAlignment="Bottom"
+            Margin="5,0,5,0" />
+        <Rectangle
+            DockPanel.Dock="Left"
+            Stroke="{x:Null}"
+            Fill="Transparent"
+            HorizontalAlignment="Left"
+            Margin="0,5,0,5"
+            Width="5"
+            x:Name="left"/>
+        <Rectangle
+            DockPanel.Dock="Right"
+            Stroke="{x:Null}"
+            Fill="Transparent"
+            Margin="0,5,0,5"
+            Width="5"
+            HorizontalAlignment="Right"
+            x:Name="right"/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="25"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.ColumnSpan="2"
                 Background="#252525"
                 MouseDown="MainWindow_Border_MouseDown">
 
-            <Grid HorizontalAlignment="Stretch">
-                <Label Content="BalloonHarbour"
+                <Grid HorizontalAlignment="Stretch">
+                    <Label Content="BalloonHarbour"
                        Foreground="Gray"
                        FontWeight="SemiBold"/>
 
-                <StackPanel HorizontalAlignment="Right"
+                    <StackPanel HorizontalAlignment="Right"
                             Orientation="Horizontal">
 
-                    <Button x:Name="buttonMinimize" Width="20" Height=" 20" 
+                        <Button x:Name="buttonMinimize" Width="20" Height=" 20" 
                             Content="−"
                             Background="Transparent"
                             BorderThickness="0"
@@ -40,7 +74,7 @@
                             FontWeight="Bold" FontSize="16" 
                             Command="{Binding MinimizeMainWindowCommand}"/>
 
-                    <Button x:Name="buttonMaximize" Width="20" Height=" 20" 
+                        <Button x:Name="buttonMaximize" Width="20" Height=" 20" 
                             Content="^"
                             Background="Transparent"
                             BorderThickness="0"
@@ -48,36 +82,37 @@
                             FontWeight="Bold" FontSize="16"
                             Command="{Binding MaximizeMainWindowCommand}"/>
 
-                    <Button x:Name="buttonClose" Width="20" Height=" 20" 
+                        <Button x:Name="buttonClose" Width="20" Height=" 20" 
                             Content="✕"
                             Background="Transparent"
                             BorderThickness="0"
                             Foreground="Gray"
                             FontWeight="Bold"
                             Command="{Binding CloseMainWindowCommand}"/>
-                </StackPanel>
-            </Grid>
-        </Border>
+                    </StackPanel>
+                </Grid>
+            </Border>
 
-        <Grid Background="#2F3136"
+            <Grid Background="#2F3136"
               Grid.Row="1">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="50"/>
-                <RowDefinition/>
-                <RowDefinition Height="60"/>
-            </Grid.RowDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="60"/>
+                </Grid.RowDefinitions>
 
-            <Label Content="Contacts"
+                <Label Content="Contacts"
                    VerticalAlignment="Center"
                    FontWeight="Medium"
                    Foreground="Gray"
                    Margin="8,0,0,0"/>
 
-            <ListView ItemsSource="{Binding Contacts}"
+                <ListView ItemsSource="{Binding Contacts}"
                       Background="Transparent"
                       BorderThickness="0"
                       Grid.Row="1"
                       ItemContainerStyle="{StaticResource Contactcard}"/>
+            </Grid>
         </Grid>
-    </Grid>
+    </DockPanel>
 </Window>

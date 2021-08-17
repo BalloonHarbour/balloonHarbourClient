@@ -1,6 +1,7 @@
 ﻿using balloonHarbour.Commands;
 using balloonHarbour.MVVM.M;
 using System.Collections.ObjectModel;
+using System.Drawing;
 using System.Windows.Input;
 
 
@@ -13,9 +14,6 @@ namespace balloonHarbour.MVVM.VM {
             CloseMainWindowCommand = new CloseMainWindowCommand(view);
             MaximizeMainWindowCommand = new MaximizeMainWindowCommand(view);
             MinimizeMainWindowCommand = new MinimizeMainWindowCommand(view);
-
-            //Testing purpose
-            
         }
         #region Commands
         public ICommand CloseMainWindowCommand {
