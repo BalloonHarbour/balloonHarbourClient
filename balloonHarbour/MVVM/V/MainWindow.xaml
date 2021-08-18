@@ -112,6 +112,37 @@
                       BorderThickness="0"
                       Grid.Row="1"
                       ItemContainerStyle="{StaticResource Contactcard}"/>
+
+                <StackPanel Grid.Row="2"
+                            Orientation="Horizontal"
+                            Background="#292B2F">
+
+                    <Border CornerRadius="25"
+                            Width="30" Height="30"
+                            Background="#3bff6f"
+                            Margin="18,0,0,0"/>
+
+                    <StackPanel VerticalAlignment="Center">
+                        <TextBox Background="Transparent"
+                                 BorderThickness="0"
+                                 IsReadOnly="True"
+                                 TextWrapping="Wrap"
+                                 Text="Username"
+                                 Foreground="White"
+                                 FontWeight="SemiBold"
+                                 Margin="5 0 0 0 "/>
+
+                        <TextBox Background="Transparent"
+                                 BorderThickness="0"
+                                 IsReadOnly="True"
+                                 TextWrapping="Wrap"
+                                 Text="Adress"
+                                 Foreground="Gray"
+                                 FontWeight="SemiBold"
+                                 FontSize="10"
+                                 Margin="5 0 0 0"/>
+                    </StackPanel>
+                </StackPanel>
             </Grid>
         </Grid>
     </DockPanel>

@@ -14,8 +14,9 @@ namespace balloonHarbour {
         private string _username;
         private string _usernameFirstLetter;
 
+
         #region ctor
-        public AvatarImage(string aUsername) {
+        public AvatarImage(string  aUsername) {
             this._username = aUsername;
             _usernameFirstLetter = _username.Substring(0, 1);
             GenerateRandomColor();
@@ -43,7 +44,7 @@ namespace balloonHarbour {
             sf.Alignment = StringAlignment.Center;
             sf.LineAlignment = StringAlignment.Center;
 
-            var font = new Font("Arial", 72, FontStyle.Bold, GraphicsUnit.Pixel);
+            var font = new Font("Segoe UI", 72, FontStyle.Bold, GraphicsUnit.Pixel);
             var graphics = Graphics.FromImage(bmp);
 
             graphics.Clear(backgroundColor);
@@ -60,6 +61,12 @@ namespace balloonHarbour {
             ms.WriteTo(file);
             file.Close();
             ms.Close();
+            _Color = backgroundColor;
         }
+
+        public void Regenerate() {
+            Generate(_Color);
+        }
+        public Color Color { get => _Color; set => _Color = value; }
     }
 }

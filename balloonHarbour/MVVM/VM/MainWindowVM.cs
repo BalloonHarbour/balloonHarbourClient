@@ -8,12 +8,20 @@ using System.Windows.Input;
 namespace balloonHarbour.MVVM.VM {
     public class MainWindowVM {
         private readonly MainWindow _View;
-        private ObservableCollection<ContactModel> _Contacts;
+        private ProfileModel _CurrentProfile;
         public MainWindowVM(MainWindow view) {
             _View = view;
             CloseMainWindowCommand = new CloseMainWindowCommand(view);
             MaximizeMainWindowCommand = new MaximizeMainWindowCommand(view);
             MinimizeMainWindowCommand = new MinimizeMainWindowCommand(view);
+
+            CurrentProfile = new ProfileModel("Username");
+
+            string name = "a";
+            for (int i = 0; i < 100; i++) {
+                name += "a";
+                var avi = new AvatarImage(name);
+            }
         }
         #region Commands
         public ICommand CloseMainWindowCommand {
@@ -26,5 +34,6 @@ namespace balloonHarbour.MVVM.VM {
             get; private set;
         }
         #endregion
+        internal ProfileModel CurrentProfile { get => _CurrentProfile; set => _CurrentProfile = value; }
     }
 }
