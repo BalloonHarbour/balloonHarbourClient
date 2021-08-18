@@ -9,7 +9,7 @@
       "balloonHarbourClientV2/1.0.0": {
         "dependencies": {
           "System.Drawing.Common": "5.0.2",
-          "WpfAnimatedGif": "2.0.0"
+          "XamlAnimatedGif": "2.0.0"
         },
         "runtime": {
           "balloonHarbourClientV2.dll": {}
@@ -46,9 +46,9 @@
           }
         }
       },
-      "WpfAnimatedGif/2.0.0": {
+      "XamlAnimatedGif/2.0.0": {
         "runtime": {
-          "lib/netcoreapp3.0/WpfAnimatedGif.dll": {
+          "lib/net5.0-windows7.0/XamlAnimatedGif.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.0.0.0"
           }
@@ -83,12 +83,12 @@
       "path": "system.drawing.common/5.0.2",
       "hashPath": "system.drawing.common.5.0.2.nupkg.sha512"
     },
-    "WpfAnimatedGif/2.0.0": {
+    "XamlAnimatedGif/2.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Z468xEqg+MSSW30BkbIcwoCQ9E0GiRQxU6L9qYCUmP28fQ79Dq4QSakWm3Dfw8CoRY3xLl3gf1xRfqILSs6/mw==",
-      "path": "wpfanimatedgif/2.0.0",
-      "hashPath": "wpfanimatedgif.2.0.0.nupkg.sha512"
+      "sha512": "sha512-eZ9JmcL1pxJuvEkdmc0BTbuuGM/0HkFjHa28H2D2I8OXgpK65mmB1dXtr84wfbF3fYOoVKyLMNwGtGC168aIiQ==",
+      "path": "xamlanimatedgif/2.0.0",
+      "hashPath": "xamlanimatedgif.2.0.0.nupkg.sha512"
     }
   }
 }
