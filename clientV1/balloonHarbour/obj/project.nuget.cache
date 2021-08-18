@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Zlo2zXcDuwA2fAf47f2xPmEjJVXeOQJqDoCNWxtISt2oflpMEvxQlrIWSXKam94dMudq5EATTCQf22qazwzNaQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Tim\\source\\repos\\balloonHarbourClient\\balloonHarbour\\balloonHarbour.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tim\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0-preview.7.21377.19\\microsoft.win32.systemevents.6.0.0-preview.7.21377.19.nupkg.sha512",
+    "C:\\Users\\Tim\\.nuget\\packages\\system.drawing.common\\6.0.0-preview.7.21377.19\\system.drawing.common.6.0.0-preview.7.21377.19.nupkg.sha512"
+  ],
+  "logs": []
+}

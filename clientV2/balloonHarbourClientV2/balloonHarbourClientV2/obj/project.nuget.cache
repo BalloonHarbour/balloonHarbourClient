@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "iWzUYkF0vu8vE7fUlO7RORD/AyTjdmGszio5HJbkTrl5JBd8BERvGXY3sWYtWt27JkeeI761/4I2QhtboPB00w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Tim\\source\\repos\\balloonHarbourClient\\clientV2\\balloonHarbourClientV2\\balloonHarbourClientV2\\balloonHarbourClientV2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tim\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Tim\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Tim\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512",
+    "C:\\Users\\Tim\\.nuget\\packages\\wpfanimatedgif\\2.0.0\\wpfanimatedgif.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

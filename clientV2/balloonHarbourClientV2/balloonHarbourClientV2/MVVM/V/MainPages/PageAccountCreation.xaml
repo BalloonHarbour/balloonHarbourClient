@@ -1,0 +1,77 @@
+﻿<Page x:Class="balloonHarbourClientV2.MVVM.V.PageAccountCreation"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:balloonHarbourClientV2.MVVM.V"
+      xmlns:gif="http://wpfanimatedgif.codeplex.com"
+      mc:Ignorable="d" 
+      d:DesignHeight="650" d:DesignWidth="1200"
+      Title="PageAccountCreation">
+
+    <StackPanel Width="300" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid Height="330" Width="300">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="210"/>
+                <RowDefinition Height="25"/>
+                <RowDefinition/>
+                <RowDefinition Height="25"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Border CornerRadius="50"
+                Width="200" Height="200"
+                Background="#208CF0"
+                Margin="0,0,0,0">
+
+                <Image x:Name="ImageLoginGIf"
+                   Height="200"
+                   gif:ImageBehavior.RepeatBehavior="3x"/>
+            </Border>
+
+
+            <Label Grid.Row="1" 
+            Content="Username:"
+            FontWeight="SemiBold"/>
+
+            <TextBox x:Name="TextBoxUsername"
+                 Grid.Row="2" 
+                 Margin="5"
+                 FontSize="12"
+                 Text="" TextAlignment="Center"
+                 FontWeight="SemiBold" FontStretch="Normal" MaxLines="1"/>
+
+            <Label Grid.Row="3" 
+            Content="Password:"
+            FontWeight="SemiBold"/>
+
+            <PasswordBox x:Name="TextBoxPassword"
+                 Grid.Row="4" 
+                 Margin="5"
+                 FontSize="12"
+                 Password="" 
+                 FontWeight="SemiBold" 
+                 MaxLength="20"
+                 HorizontalContentAlignment="Center" 
+                 VerticalContentAlignment="Center" />
+
+        </Grid>
+        <Grid Height="40">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Button Margin="5, 5, 5, 5" 
+                    Grid.Column="0"
+                    Content="Login"
+                    FontWeight="SemiBold"/>
+            
+            <Button Margin="5, 5, 5, 5" 
+                    Grid.Column="1"
+                    Content="Register"
+                    FontWeight="SemiBold"/>
+        </Grid>
+    </StackPanel>
+    
+</Page>
