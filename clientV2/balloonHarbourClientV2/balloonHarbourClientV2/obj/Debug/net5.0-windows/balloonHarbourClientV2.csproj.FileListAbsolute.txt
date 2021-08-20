@@ -37,9 +37,13 @@ C:\Users\Tim\source\repos\balloonHarbourClient\clientV2\balloonHarbourClientV2\b
 C:\Users\Tim\source\repos\balloonHarbourClient\clientV2\balloonHarbourClientV2\balloonHarbourClientV2\obj\Debug\net5.0-windows\balloonHarbourClientV2.csproj.CopyComplete
 C:\Users\Tim\source\repos\balloonHarbourClient\clientV2\balloonHarbourClientV2\balloonHarbourClientV2\obj\Debug\net5.0-windows\Resources\Themes\ContactCard.baml
 C:\Users\Tim\source\repos\balloonHarbourClient\clientV2\balloonHarbourClientV2\balloonHarbourClientV2\obj\Debug\net5.0-windows\MVVM\V\MainPages\PageAccountCreation.g.cs
-C:\Users\Tim\source\repos\balloonHarbourClient\clientV2\balloonHarbourClientV2\balloonHarbourClientV2\obj\Debug\net5.0-windows\MVVM\V\MainPages\PageChatOverview.g.cs
 C:\Users\Tim\source\repos\balloonHarbourClient\clientV2\balloonHarbourClientV2\balloonHarbourClientV2\obj\Debug\net5.0-windows\MVVM\V\MainPages\PageAccountCreation.baml
-C:\Users\Tim\source\repos\balloonHarbourClient\clientV2\balloonHarbourClientV2\balloonHarbourClientV2\obj\Debug\net5.0-windows\MVVM\V\MainPages\PageChatOverview.baml
 C:\Users\Tim\source\repos\balloonHarbourClient\clientV2\balloonHarbourClientV2\balloonHarbourClientV2\bin\Debug\net5.0-windows\XamlAnimatedGif.dll
 C:\Users\Tim\source\repos\balloonHarbourClient\clientV2\balloonHarbourClientV2\balloonHarbourClientV2\obj\Debug\net5.0-windows\balloonHarbourClientV2.Properties.Resources.resources
 C:\Users\Tim\source\repos\balloonHarbourClient\clientV2\balloonHarbourClientV2\balloonHarbourClientV2\obj\Debug\net5.0-windows\balloonHarbourClientV2.csproj.GenerateResource.cache
+C:\Users\Tim\source\repos\balloonHarbourClient\clientV2\balloonHarbourClientV2\balloonHarbourClientV2\obj\Debug\net5.0-windows\MVVM\V\MainInProgramPages\PageMainChatOverview.g.cs
+C:\Users\Tim\source\repos\balloonHarbourClient\clientV2\balloonHarbourClientV2\balloonHarbourClientV2\obj\Debug\net5.0-windows\MVVM\V\MainInProgramPages\PageMainSettingsOverview.g.cs
+C:\Users\Tim\source\repos\balloonHarbourClient\clientV2\balloonHarbourClientV2\balloonHarbourClientV2\obj\Debug\net5.0-windows\MVVM\V\MainPages\PageInProgram.g.cs
+C:\Users\Tim\source\repos\balloonHarbourClient\clientV2\balloonHarbourClientV2\balloonHarbourClientV2\obj\Debug\net5.0-windows\MVVM\V\MainInProgramPages\PageMainChatOverview.baml
+C:\Users\Tim\source\repos\balloonHarbourClient\clientV2\balloonHarbourClientV2\balloonHarbourClientV2\obj\Debug\net5.0-windows\MVVM\V\MainInProgramPages\PageMainSettingsOverview.baml
+C:\Users\Tim\source\repos\balloonHarbourClient\clientV2\balloonHarbourClientV2\balloonHarbourClientV2\obj\Debug\net5.0-windows\MVVM\V\MainPages\PageInProgram.baml

@@ -19,7 +19,7 @@ namespace balloonHarbourClientV2.MVVM.VM.Commands {
         }
 
         public void Execute(object parameter) {
-            MainWindowVM.View.FrameMain.NavigationService.Navigate(MainWindowVM.PageChatOverview);
+            MainWindowVM.View.FrameMain.NavigationService.Navigate(MainWindowVM.PageInProgram);
         }
         public event EventHandler CanExecuteChanged;
     }

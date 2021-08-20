@@ -61,7 +61,7 @@ namespace balloonHarbourClientV2 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/balloonHarbourClientV2;V1.0.0.0;component/mvvm/v/mainwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/balloonHarbourClientV2;component/mvvm/v/mainwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\MVVM\V\MainWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

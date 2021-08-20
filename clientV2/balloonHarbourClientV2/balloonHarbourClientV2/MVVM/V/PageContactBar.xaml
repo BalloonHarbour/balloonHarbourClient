@@ -7,26 +7,10 @@
       mc:Ignorable="d" 
       d:DesignHeight="650" d:DesignWidth="150"
       Title="FrameContactBar">
-
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="50"/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
-        
-        <Grid Grid.Row="0">
-            <Label x:Name="LabelContacts"
-                   Content="Contacts"
-                   VerticalAlignment="Center"
-                   FontWeight="Medium"
-                   Foreground="Gray"
-                   Margin="8,0,0,0"/>
-        </Grid>
-
-        <ListView x:Name="ListViewContacts"
+    
+    <ListView x:Name="ListViewContacts"
                   ItemsSource="{Binding Contacts}"
                   Grid.Row="1"
                   BorderThickness="0"
                   ItemContainerStyle="{StaticResource Contactcard}"/>
-    </Grid>
 </Page>

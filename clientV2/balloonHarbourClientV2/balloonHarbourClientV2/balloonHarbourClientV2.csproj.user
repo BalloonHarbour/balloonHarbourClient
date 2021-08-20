@@ -7,7 +7,13 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="MVVM\V\MainPages\PageChatOverview.xaml.cs">
+    <Compile Update="MVVM\V\MainInProgramPages\PageMainChatOverview.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MVVM\V\MainInProgramPages\PageMainSettingsOverview.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MVVM\V\MainPages\PageInProgram.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="MVVM\V\MainPages\PageAccountCreation.xaml.cs">
@@ -18,7 +24,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="MVVM\V\MainPages\PageChatOverview.xaml">
+    <Page Update="MVVM\V\MainInProgramPages\PageMainChatOverview.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\V\MainInProgramPages\PageMainSettingsOverview.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\V\MainPages\PageInProgram.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MVVM\V\MainPages\PageAccountCreation.xaml">

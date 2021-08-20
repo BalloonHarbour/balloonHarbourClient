@@ -102,8 +102,7 @@ namespace balloonHarbourClientV2.MVVM.V {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/balloonHarbourClientV2;V1.0.0.0;component/mvvm/v/mainpages/pageaccountcreation.x" +
-                    "aml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/balloonHarbourClientV2;component/mvvm/v/mainpages/pageaccountcreation.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\..\MVVM\V\MainPages\PageAccountCreation.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
