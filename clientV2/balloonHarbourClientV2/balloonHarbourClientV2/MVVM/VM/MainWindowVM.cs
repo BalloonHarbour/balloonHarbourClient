@@ -7,19 +7,26 @@ using balloonHarbourClientV2.MVVM.V;
 using balloonHarbourClientV2.MVVM.V.MainPages;
 
 namespace balloonHarbourClientV2.MVVM.VM {
-    class MainWindowVM {
+    public class MainWindowVM {
         private MainWindow _View;
+        private PageChatOverview pageChatOverview;
+        private PageContactBar pageContactBar;
+        private PageAccountCreation pageAccountCreation;
         public MainWindowVM( MainWindow view) {
             this.View = view;
-            PageChatOverview pageChatOverview = new PageChatOverview();
-            PageContactBar pageContactBar = new PageContactBar();
-            PageAccountCreation pageAccountCreation = new PageAccountCreation();
+
+            pageChatOverview = new PageChatOverview();
+            pageContactBar = new PageContactBar();
+            pageAccountCreation = new PageAccountCreation(this);
             pageChatOverview.FrameContactBar.Content = pageContactBar;
 
 
             view.FrameMain.Content = pageAccountCreation;
         }
 
-        private MainWindow View { get => _View; set => _View = value; }
+        public MainWindow View { get => _View; set => _View = value; }
+        public PageChatOverview PageChatOverview { get => pageChatOverview; set => pageChatOverview = value; }
+        public PageContactBar PageContactBar { get => pageContactBar; set => pageContactBar = value; }
+        public PageAccountCreation PageAccountCreation { get => pageAccountCreation; set => pageAccountCreation = value; }
     }
 }

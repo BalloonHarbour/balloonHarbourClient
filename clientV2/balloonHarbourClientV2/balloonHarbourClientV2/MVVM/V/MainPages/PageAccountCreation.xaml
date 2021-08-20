@@ -10,9 +10,11 @@
       Title="PageAccountCreation">
 
     <StackPanel Width="300" HorizontalAlignment="Center" VerticalAlignment="Center">
-        <Grid Height="330" Width="300">
+        <Grid Height="380" Width="300">
             <Grid.RowDefinitions>
                 <RowDefinition Height="210"/>
+                <RowDefinition Height="25"/>
+                <RowDefinition/>
                 <RowDefinition Height="25"/>
                 <RowDefinition/>
                 <RowDefinition Height="25"/>
@@ -38,23 +40,23 @@
             </Border>
 
 
-            <Label Grid.Row="1" 
+            <Label Grid.Row="3" 
             Content="Username:"
             FontWeight="SemiBold"/>
 
             <TextBox x:Name="TextBoxUsername"
-                 Grid.Row="2" 
+                 Grid.Row="4" 
                  Margin="5"
                  FontSize="12"
                  Text="" TextAlignment="Center"
                  FontWeight="SemiBold" FontStretch="Normal" MaxLines="1"/>
 
-            <Label Grid.Row="3" 
+            <Label Grid.Row="5" 
             Content="Password:"
             FontWeight="SemiBold"/>
 
             <PasswordBox x:Name="TextBoxPassword"
-                 Grid.Row="4" 
+                 Grid.Row="6" 
                  Margin="5"
                  FontSize="12"
                  Password="" 
@@ -62,6 +64,17 @@
                  MaxLength="20"
                  HorizontalContentAlignment="Center" 
                  VerticalContentAlignment="Center" />
+
+            <Label Grid.Row="1" 
+            Content="Instance:"
+            FontWeight="SemiBold"/>
+
+            <TextBox x:Name="textBoxInstance"
+                     Grid.Row="2"
+                     Margin="5"
+                     FontSize="12"
+                     Text="" TextAlignment="Center"
+                     FontWeight="SemiBold" FontStretch="Normal" MaxLines="1"/>
 
         </Grid>
         <Grid Height="40">
@@ -73,7 +86,8 @@
             <Button Margin="5, 5, 5, 5" 
                     Grid.Column="0"
                     Content="Login"
-                    FontWeight="SemiBold"/>
+                    FontWeight="SemiBold" Background="#FF208CF0"
+                    Command="{Binding ButtonLoginClick}"/>
             
             <Button Margin="5, 5, 5, 5" 
                     Grid.Column="1"

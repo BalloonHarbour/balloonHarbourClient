@@ -15,6 +15,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using balloonHarbourClientV2.Classes;
+using balloonHarbourClientV2.MVVM.VM;
 using XamlAnimatedGif;
 
 namespace balloonHarbourClientV2.MVVM.V {
@@ -23,19 +24,9 @@ namespace balloonHarbourClientV2.MVVM.V {
     /// </summary>
     public partial class PageAccountCreation : Page, IPageMain {
         private string pageHeader = "Greetings!";
-        public PageAccountCreation() {
+        public PageAccountCreation(MainWindowVM mainWindowVM) {
             InitializeComponent();
-        }
-
-        public void SetLoginGif() {
-
-            Stopwatch stopwatch = new Stopwatch();
-            stopwatch.Start();
-
-            Uri loginImageUri = new Uri(LoginGif.GetRandomLoginGif());
-            AnimationBehavior.SetSourceUri(ImageLoginGIf, loginImageUri);
-            stopwatch.Stop();
-            MessageBox.Show(Convert.ToString(stopwatch.ElapsedMilliseconds));
+            DataContext = new PageAccountCreationVM(this, mainWindowVM);
         }
 
         public string PageHeader { get => pageHeader; set => pageHeader = value; }
