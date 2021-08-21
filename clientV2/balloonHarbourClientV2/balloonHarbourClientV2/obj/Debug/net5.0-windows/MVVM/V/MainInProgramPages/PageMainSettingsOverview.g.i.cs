@@ -53,8 +53,8 @@ namespace balloonHarbourClientV2.MVVM.V.MainFieldPages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/balloonHarbourClientV2;component/mvvm/v/maininprogrampages/pagemainsettingsoverv" +
-                    "iew.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/balloonHarbourClientV2;V1.0.0.0;component/mvvm/v/maininprogrampages/pagemainsett" +
+                    "ingsoverview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\..\MVVM\V\MainInProgramPages\PageMainSettingsOverview.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
