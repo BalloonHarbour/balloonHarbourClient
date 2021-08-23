@@ -1,13 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows;
-using balloonHarbourClientV2.Cryptography;
-using balloonHarbourClientV2.Cryptography.hashes;
-using balloonHarbourClientV2.Cryptography.methods;
 using balloonHarbourClientV2.MVVM.V;
 using balloonHarbourClientV2.MVVM.V.MainPages;
 
@@ -15,6 +10,7 @@ namespace balloonHarbourClientV2.MVVM.VM {
     class MainWindowVM {
         private MainWindow _View;
         public MainWindowVM( MainWindow view) {
+<<<<<<< HEAD
 
             EncryptionMethod enc_method = new secp256r1();
             ECC ecc1 = new ECC(enc_method);
@@ -36,6 +32,8 @@ namespace balloonHarbourClientV2.MVVM.VM {
 
             MessageBox.Show(keys_1[0].ToString() + "\n" + keys_1[1] + "\n" + keys_1[2] + "\n\n" + keys_2[0].ToString() + "\n" + keys_2[1] + "\n" + keys_2[2] + "\n\nSec1: " + ecc1.point_mult(keys_1[0], pub_key_2)[0].ToString() + "\n\nSec2: " + ecc2.point_mult(keys_2[0], pub_key_1)[0].ToString());
             
+=======
+>>>>>>> parent of 1d9a095 (push 4 aid)
             this.View = view;
             PageChatOverview pageChatOverview = new PageChatOverview();
             PageContactBar pageContactBar = new PageContactBar();

@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "yC0zGSwxOdS4XiDzYWL53uch65Fta+UdSfGadpwnRszUBqWhm7EqzWU7eBl/1kBWKcJodt3Qo2MPWyz1xWsIXQ==",
   "success": false,
   "projectFilePath": "C:\\Users\\User\\Documents\\GitHub\\balloonHarbourClient\\clientV2\\balloonHarbourClientV2\\balloonHarbourClientV2\\balloonHarbourClientV2.csproj",
@@ -11,4 +12,16 @@
       "message": "Die Projektinformationen für \"balloonHarbourClientV2\" können nicht gelesen werden: Ungültiger Frameworkbezeichner \"\"."
     }
   ]
+=======
+  "dgSpecHash": "yjyMq+2wLwUIahivQhWWkpQPZREBUTz4/FoMGHX/n1mPw95qjH9Okq4rqZGpJcCH9/31NmNQ7VUV5UeWyRUKJA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Tim\\source\\repos\\balloonHarbourClient\\clientV2\\balloonHarbourClientV2\\balloonHarbourClientV2\\balloonHarbourClientV2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tim\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Tim\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Tim\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512",
+    "C:\\Users\\Tim\\.nuget\\packages\\xamlanimatedgif\\2.0.0\\xamlanimatedgif.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+>>>>>>> parent of 1d9a095 (push 4 aid)
 }
