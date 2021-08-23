@@ -12,8 +12,13 @@ TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\Tim\source\repos\balloonHarbourClient\clientV2\balloonHarbourClientV2\balloonHarbourClientV2\App.xaml
 9806964404
 
+<<<<<<< HEAD
 19-1064987293
 1951255148675
+=======
+21-408982543
+195517340595
+>>>>>>> parent of 1d9a095 (push 4 aid)
 MVVM\V\MainPages\PageAccountCreation.xaml;MVVM\V\MainPages\PageChatOverview.xaml;MVVM\V\MainWindow.xaml;MVVM\V\PageContactBar.xaml;Resources\Themes\ColourfulDarkTheme.xaml;Resources\Themes\ColourfulLightTheme.xaml;Resources\Themes\ContactCard.xaml;Resources\Themes\DarkTheme.xaml;Resources\Themes\LightTheme.xaml;
 
 True

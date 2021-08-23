@@ -194,16 +194,22 @@
   "project": {
     "restore": {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\balloonHarbourClient\\clientV2\\balloonHarbourClientV2\\balloonHarbourClientV2\\balloonHarbourClientV2.csproj",
       "projectPath": "C:\\Users\\User\\Documents\\GitHub\\balloonHarbourClient\\clientV2\\balloonHarbourClientV2\\balloonHarbourClientV2\\balloonHarbourClientV2.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\User\\Documents\\GitHub\\balloonHarbourClient\\clientV2\\balloonHarbourClientV2\\balloonHarbourClientV2\\obj\\",
 =======
+=======
+>>>>>>> parent of 1d9a095 (push 4 aid)
       "projectUniqueName": "C:\\Users\\Tim\\source\\repos\\balloonHarbourClient\\clientV2\\balloonHarbourClientV2\\balloonHarbourClientV2\\balloonHarbourClientV2.csproj",
       "projectName": "balloonHarbourClientV2",
       "projectPath": "C:\\Users\\Tim\\source\\repos\\balloonHarbourClient\\clientV2\\balloonHarbourClientV2\\balloonHarbourClientV2\\balloonHarbourClientV2.csproj",
       "packagesPath": "C:\\Users\\Tim\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Tim\\source\\repos\\balloonHarbourClient\\clientV2\\balloonHarbourClientV2\\balloonHarbourClientV2\\obj\\",
+<<<<<<< HEAD
+>>>>>>> parent of 1d9a095 (push 4 aid)
+=======
 >>>>>>> parent of 1d9a095 (push 4 aid)
       "projectStyle": "PackageReference",
       "fallbackFolders": [
@@ -213,6 +219,12 @@
         "C:\\Users\\Tim\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+<<<<<<< HEAD
+=======
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+>>>>>>> parent of 1d9a095 (push 4 aid)
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -264,6 +276,9 @@
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+<<<<<<< HEAD
+>>>>>>> parent of 1d9a095 (push 4 aid)
+=======
 >>>>>>> parent of 1d9a095 (push 4 aid)
       }
     }

@@ -11,6 +11,7 @@ namespace balloonHarbourClientV2.MVVM.VM {
         private MainWindow _View;
         public MainWindowVM( MainWindow view) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             EncryptionMethod enc_method = new secp256r1();
             ECC ecc1 = new ECC(enc_method);
@@ -32,6 +33,8 @@ namespace balloonHarbourClientV2.MVVM.VM {
 
             MessageBox.Show(keys_1[0].ToString() + "\n" + keys_1[1] + "\n" + keys_1[2] + "\n\n" + keys_2[0].ToString() + "\n" + keys_2[1] + "\n" + keys_2[2] + "\n\nSec1: " + ecc1.point_mult(keys_1[0], pub_key_2)[0].ToString() + "\n\nSec2: " + ecc2.point_mult(keys_2[0], pub_key_1)[0].ToString());
             
+=======
+>>>>>>> parent of 1d9a095 (push 4 aid)
 =======
 >>>>>>> parent of 1d9a095 (push 4 aid)
             this.View = view;
