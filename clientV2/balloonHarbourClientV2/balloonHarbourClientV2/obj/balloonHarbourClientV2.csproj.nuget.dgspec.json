@@ -56,7 +56,7 @@
               "target": "Package",
               "version": "[5.0.2, )"
             },
-            "XamlAnimatedGif": {
+            "WpfAnimatedGif": {
               "target": "Package",
               "version": "[2.0.0, )"
             }

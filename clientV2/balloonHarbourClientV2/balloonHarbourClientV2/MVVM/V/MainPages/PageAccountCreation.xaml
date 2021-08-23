@@ -4,7 +4,7 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:balloonHarbourClientV2.MVVM.V"
-      xmlns:gif="https://github.com/XamlAnimatedGif/XamlAnimatedGif"
+      xmlns:gif="http://wpfanimatedgif.codeplex.com"
       mc:Ignorable="d" 
       d:DesignHeight="650" d:DesignWidth="1200"
       Title="PageAccountCreation">
@@ -19,22 +19,14 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-            <Border x:Name="LoginProfileBorder"
-                CornerRadius="50"
+            <Border CornerRadius="50"
                 Width="200" Height="200"
                 Background="#208CF0"
                 Margin="0,0,0,0">
 
-                <Grid Height="187" Width="187">
-                    <Border Name="mask" Background="#208CF0" CornerRadius="45"/>
-                    <StackPanel>
-                        <StackPanel.OpacityMask>
-                            <VisualBrush Visual="{Binding ElementName=mask}"/>
-                        </StackPanel.OpacityMask>
-                        
-                        <Image x:Name="ImageLoginGIf" gif:AnimationBehavior.SourceUri="/Resources/Image/Gif/Login/LoginCat3.gif"/>
-                    </StackPanel>
-                </Grid>
+                <Image x:Name="ImageLoginGIf"
+                   Height="200"
+                   gif:ImageBehavior.RepeatBehavior="3x"/>
             </Border>
 
 
