@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "yjyMq+2wLwUIahivQhWWkpQPZREBUTz4/FoMGHX/n1mPw95qjH9Okq4rqZGpJcCH9/31NmNQ7VUV5UeWyRUKJA==",
+  "dgSpecHash": "sEacR4Aoyy5plSq+VbjE2RbYH46gVEQXio1mxuoHa6MSk211ejVopHJarsPJaUU//8yRn0nZITV4ZeAanO+uLg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tim\\source\\repos\\balloonHarbourClient\\clientV2\\balloonHarbourClientV2\\balloonHarbourClientV2\\balloonHarbourClientV2.csproj",
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\balloonHarbour\\clientV2\\balloonHarbourClientV2\\balloonHarbourClientV2\\balloonHarbourClientV2.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Tim\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
-    "C:\\Users\\Tim\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
-    "C:\\Users\\Tim\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512",
-    "C:\\Users\\Tim\\.nuget\\packages\\xamlanimatedgif\\2.0.0\\xamlanimatedgif.2.0.0.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\xamlanimatedgif\\2.0.1\\xamlanimatedgif.2.0.1.nupkg.sha512"
   ],
   "logs": []
 }
